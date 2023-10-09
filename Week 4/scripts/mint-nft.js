@@ -15,7 +15,7 @@ const signer = new ethers.Wallet(privateKey, provider)
 
 // Get contract ABI and address
 const abi = contract.abi
-const contractAddress = '0x4Bfea85959Ea5d61D2359D7EFee79e83d9F06b5a'
+const contractAddress = '0x5471E1f1Dd9E7C0c0fdf204BB99a35c514CA582b'
 
 // Create a contract instance
 const myNftContract = new ethers.Contract(contractAddress, abi, signer)
