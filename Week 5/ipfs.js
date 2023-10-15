@@ -1,6 +1,6 @@
 const IPFS = require('ipfs-mini');
 const ipfs = new IPFS({host: 'ips.infura.io',port: 5001,protocol:'https'});
-const data = "some string";
+const data = /*"Enter file path location"*/;
 ipfs.add(data, (err,hash) => {
   if(err)
   {
